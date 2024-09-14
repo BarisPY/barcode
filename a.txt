@@ -1,0 +1,3 @@
+Delete after reading this article!
+----------
+In this section, it is written how many of which product, at what time, on which date it was sold and the money received from the customer and the money given back to the customer as extra. If you have understood so far, delete these texts and save the file. After this file, read the urunler.txt file or if you are reading these articles after reading it, delete all the articles here and start the code.

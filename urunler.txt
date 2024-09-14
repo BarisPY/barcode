@@ -1,0 +1,22 @@
+(Product Name + Product Barcode in Combined Format:ProductPrice.ProductPriceCents)
+----------
+For example
+PencilBox 8695077054609:10.10
+OrangeBall 4015000090940:30.25
+CoffeeTableHandle 8697423003613:20.95
+----------
+NOTE: As in the example, put a space after the product name and type the barcode and price. While there is a space between the product name and the barcode, there is no space between the barcode and the price, there is a “:” symbol. After the “:” symbol, the price of the product is written. For example 30.12 or 92.25
+
+-----------
+Example of Correct Use:
+BlackTable 4015000090940:120.30
+
+Incorrect Use Case:
+Black Table 4015000090940:120.30 (The product name should be written contiguously, BlackTable should be BlackTable instead of Black Coffee Table).
+-----------
+What the program will understand:
+
+For example; When you type SiyahMasa 4015000090940:120.30, the program understands that when the barcode 4015000090940 is scanned by the camera, it is SiyahMasa and its price is 120.30 TL. If there is no penny in your price, add “.00” at the end if it is an integer. For example 120.00 or 92.00 
+-----------
+
+After reading and understanding this section, delete all the articles. And save your products in the form of product name barcode: price from the beginning. Read the a.txt file in the folder, if you came to read these articles after reading it, enter the barcode, name, price of your products and run the code.
